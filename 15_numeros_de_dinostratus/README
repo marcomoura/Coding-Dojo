@@ -1,0 +1,46 @@
+Décimo quarto quinto dojo na CN e o oitavo utilizando Python, todos meio enferrujados por causa do feriado, mas como sempre foi bom.
+
+A partir deste dojo nossos posts a respeito do Coding Dojo CN serão feitos todos no blog do desenvolvimento TI e não mais no blog http://cncodingdojo.wordpress.com/, no inicio achamos melhor manter em um local separado, isto resolveu alguns problemas mas causou outros, então decidimos que o melhor será centralizar tudo que a equipe escreve apenas neste blog, então por favor atualizem o seu leitor de FEEDS.
+
+Outra novidade é que nos próximos encontros não será obrigatório que os curadores apresentem um Lightning Talk, isso será opcional e facultativo.
+
+Coding Dojo
+
+Nós iniciamos o coding dojo 20 minutos além do previsto, devido a mudanças na gravação do linghting talk, depois de escolhido o kata, foram 30 minutos de planejamento sobre como desenvolveríamos a solução e no restante do tempo (50min) ocupamos programando, no inicio enroscamos nos testes por esquecermos alguns itens para o teste poder executar (um item chamado SELF .. rssss), e no final 15 minutos de retrospectiva.
+
+O Kata foi sem muita expectativa de complicação no uso da linguagem python, mas foi complexo em lógica matemática, kata Números de Dinostratus.
+
+Origem do kata :  http://br.spoj.pl/problems/DINOSTRA/
+
+Retrospectiva:
+
+Bom:
+
+    * Lighting Talk
+    * Webcam
+    * motivação maior- saudades
+    * sem disputa de ego
+    * usar quadro para demonstração
+
+Ruim:
+
+    * Perca de tempo
+    * Kata muito matemático
+    * esquecer de sintaxe
+    * sem post-it
+    * tempo curto na programação/pilotagem
+    * o curador atrasou
+
+Próximos:
+- kata menos matemático
+- LT opcional
+- começar mais cedo
+
+A ordem da próximas duplas que ficam responsáveis da organização do dojo será a seguinte:
+24/11- Natália / Patrícia
+01/12- Luciana / Marco
+08/12- Carlos / Salomão
+
+
+leia mais...
+http://blog.cancaonova.com/desenvolvimentoti/coding-dojo-15-numeros-de-dinostratus/
