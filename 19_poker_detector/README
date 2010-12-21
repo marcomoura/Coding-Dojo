@@ -1,0 +1,40 @@
+Outro encontro utilizando o BDD, metodologia de desenvolvimento que tem causado interessantes discussões no dojo, alguns estão gostando do BDD e outros preferem o TDD.
+
+Kata
+O desafio foi fazer um detector de Jogadas de Pocker, consiste em informar um conjunto de 5 cartas para o detector que deverá identificar a maior jogada possível com aquele conjunto e retornar o nome da jogada.
+O kata foi retirado do post Relato de um super Dojo Rio, do blog do Dojo Rio.
+
+Retrospectiva
+
+O que foi bom ou o que devemos continuar fazendo?
+
+    * todos participaram
+    * kata legal e compreensível
+    * textamate foi legal
+    * todos estão tendo o contato com o Mac OS X
+    * cucumber
+    * o código ruby ficou legal
+    * uso de features do ruby
+    * salomão elogiando o terminal
+    * projetor
+
+O que foi ruim ou o que devemos fazer de outra maneira ?
+
+    * cucumber
+    * falta de teste unitário
+    * não utilizando o cucumber para testar o estado
+    * falta de atenção da platéia
+    * os pilotos não falarem em voz alta o que estavam fazendo
+    * menos inibição quando estiver pilotando
+    * receio de fatorar o cenários de testes (cucumber)
+
+Para os próximos encontros:
+
+    * tempo de duração do kata de 2 horas, a contar a partir da escolha do kata, talvez com intervalo de 15 minutos com lanche
+    * tirar foto do coffee break
+
+Organizadores
+O encontro desta semana foi organizado por Patricia Carvalho & Marco Moura
+
+leia mais e veja fotos:
+http://blog.cancaonova.com/desenvolvimentoti/coding-dojo-kata-poker-detector/
