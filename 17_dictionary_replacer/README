@@ -1,0 +1,39 @@
+Bem amigos do Coding Dojo, hoje o encontro foi especialmente legal!! Primeiro porque voltamos a programar em Ruby (que foi a linguagem escolhida pela equipe para o protótipo do novo Portal), e depois porque tivemos nosso primeiro contato com as práticas de BDD (Behavior Driven Development), usando Cucumber e RSpec.
+
+No início foi meio estranho por não estarmos acostumados ainda a essa cultura de testes, mas depois fomos pegando o jeitinho.
+
+O desafio foi interessante também pelo fato de não precisarmos nos prender tanto na resolução do problema em si, fazendo assim com que nós focassemos mais nos testes.
+
+E para fechar com chave de ouro, o lanche na restrospectiva foi “mara”: com bolacha calipso e trakinas, e claro o ótimo cafézinho do @marcomoura! ;D
+
+Origem do kata: http://codingdojo.org/cgi-bin/wiki.pl?KataDictionaryReplacer
+
+Retrospectiva
+
+O que foi bom e devemos repetir nos próximos
+
+    * lanche e café
+    * conhecer algo novo (cucumber, BDD)
+    * realmente iniciamos o desenvolvimento pelo teste
+    * o desafio foi bom
+    * os curadores
+    * o output do cucumber é legal
+    * ter referência na máquina foi legal
+    * não acessar a internet
+    * usar o terminal =D
+    * mudar de editor
+    * foi divertido
+    * a busca pela solução do desafio foi legal
+    * foi bem babysteps
+
+Nos próximos poderia ser melhor
+
+    * melhor conhecimento de Ruby
+    * melhor conhecimento de Cucumber
+    * melhor conhecimento de RSpec (steps)
+    * travar menos no inicio do desenvolvimento
+    * melhorar a dinâmica da dupla (ping pong)
+    * Refatorar antes de implementar uma coisa nova
+
+Leia mais e veja fotos:
+http://blog.cancaonova.com/desenvolvimentoti/coding-dojo-17-dictionary-replacer/
