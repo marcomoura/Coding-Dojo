@@ -7,7 +7,7 @@ end
 
 
 Quando /^eu mando sortear$/ do
-  pending # express the regexp above with the code you wish you had
+  @sorteio.sort
 end
 
 Entao /^quero ver a dupla$/ do
