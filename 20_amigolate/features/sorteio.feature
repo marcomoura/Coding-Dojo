@@ -10,11 +10,10 @@ Funcionalidade: Sorteio
     Quando eu mando sortear
     Entao quero ver a dupla
     
-  Cenario: sortear o primeiro par
+  Cenario: sortear o primeiro
     Dado que tenho "Natalia" e "Marco" e "Nelma" e "Rafael" cadastrados
     Quando eu mando sortear
-    Entao quero ver "Marco,Natalia" 
-    E "Rafael,Nelma"  
+    Entao quero ver "Natalia" ou "Marco" ou "Nelma" ou "Rafael" 
       
     
   

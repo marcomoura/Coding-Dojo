@@ -1,3 +1,6 @@
+#before do
+	#@sorteio = Amigolate.new 
+#end
 
 Dado /^que tenho "([^"]*)" e "([^"]*)" cadastrados$/ do |arg1, arg2|
 	@sorteio = Amigolate.new 
@@ -16,13 +19,15 @@ end
 
 
 Dado /^que tenho "([^\"]*)" e "([^\"]*)" e "([^\"]*)" e "([^\"]*)" cadastrados$/ do |arg1, arg2, arg3, arg4|
-  pending # express the regexp above with the code you wish you had
+ 	@sorteio = Amigolate.new
+	@sorteio.add(arg1)
+	@sorteio.add(arg2)
+	@sorteio.add(arg3)
+	@sorteio.add(arg4)
 end
 
-Entao /^quero ver "([^\"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+Entao /^quero ver "([^"]*)" ou "([^"]*)" ou "([^"]*)" ou "([^"]*)"$/ do |arg1, arg2, arg3, arg4|
+  [arg1, arg2, arg3, arg4].should include @sorteio
 end
 
-Entao /^"([^\"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
+
