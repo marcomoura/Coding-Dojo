@@ -2,12 +2,6 @@
 	#@sorteio = Amigolate.new 
 #end
 
-Dado /^que tenho "([^"]*)" e "([^"]*)" cadastrados$/ do |arg1, arg2|
-	@sorteio = Amigolate.new 
-	@sorteio.add(arg1)
-	@sorteio.add(arg2)
-end
-
 
 Quando /^eu mando sortear$/ do
   @dupla = @sorteio.sortear
@@ -18,16 +12,21 @@ Entao /^quero ver a "([^\"]*)"$/ do |arg1|
 end
 
 
-Dado /^que tenho "([^\"]*)" e "([^\"]*)" e "([^\"]*)" e "([^\"]*)" cadastrados$/ do |arg1, arg2, arg3, arg4|
- 	@sorteio = Amigolate.new
+Dado /^que eu quero escolher o amigo da "([^\"]*)"$/ do |arg1|
+	@sorteio = Amigolate.new 
+	@sorteio.quem_vai_dar_o_chocolate(arg1)
+end
+
+Dado /^tenho cadastrado "([^\"]*)"$/ do |arg1|
+	@sorteio.add(arg1)
+end
+
+Dado /^tenho cadastrado "([^\"]*)", "([^\"]*)" e "([^\"]*)"$/ do |arg1, arg2, arg3|
 	@sorteio.add(arg1)
 	@sorteio.add(arg2)
 	@sorteio.add(arg3)
-	@sorteio.add(arg4)
 end
 
-Entao /^quero ver "([^"]*)" ou "([^"]*)" ou "([^"]*)" ou "([^"]*)"$/ do |arg1, arg2, arg3, arg4|
-  [arg1, arg2, arg3, arg4].should include @dupla
+Entao /^quero ver a "([^\"]*)" ou "([^\"]*)" ou "([^\"]*)"$/ do |arg1, arg2, arg3|
+  [arg1, arg2, arg3].should include @dupla 
 end
-
-

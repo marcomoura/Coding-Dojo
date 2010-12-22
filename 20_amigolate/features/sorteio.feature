@@ -6,14 +6,16 @@ Funcionalidade: Sorteio
   Eu quero organizar um amigolate
 
   Cenario: sortear o primeiro par
-    Dado que eu quero escolher o amigo da Natalia 
+    Dado que eu quero escolher o amigo da "Natalia"
+    E tenho cadastrado "Marco"
     Quando eu mando sortear
-    Entao quero ver a "Marco,Natalia"
+    Entao quero ver a "Natalia e Marco"
     
   Cenario: sortear o primeiro
-    Dado que tenho "Natalia" e "Marco" e "Nelma" e "Rafael" cadastrados
+    Dado que eu quero escolher o amigo da "Natalia"
+    E tenho cadastrado "Marco", "Nelma" e "Rafael"
     Quando eu mando sortear
-    Entao quero ver "Natalia" ou "Marco" ou "Nelma" ou "Rafael" 
+    Entao quero ver a "Natalia e Marco" ou "Natalia e Nelma" ou "Natalia e Rafael" 
       
     
   
