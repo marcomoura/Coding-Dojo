@@ -1,6 +1,8 @@
 
 Dado /^que tenho "([^"]*)" e "([^"]*)" cadastrados$/ do |arg1, arg2|
-	Amigolate.new
+	@sorteio = Amigolate.new 
+	@sorteio.add(arg1)
+	@sorteio.add(arg2)
 end
 
 
