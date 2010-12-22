@@ -10,11 +10,11 @@ end
 
 
 Quando /^eu mando sortear$/ do
-  @sorteio.sort
+  @dupla = @sorteio.sortear
 end
 
-Entao /^quero ver a dupla$/ do
-  @sorteio.result.should == 'marco,natalia'
+Entao /^quero ver a "([^\"]*)"$/ do |arg1|
+  @dupla.should == arg1
 end
 
 
@@ -27,7 +27,7 @@ Dado /^que tenho "([^\"]*)" e "([^\"]*)" e "([^\"]*)" e "([^\"]*)" cadastrados$/
 end
 
 Entao /^quero ver "([^"]*)" ou "([^"]*)" ou "([^"]*)" ou "([^"]*)"$/ do |arg1, arg2, arg3, arg4|
-  [arg1, arg2, arg3, arg4].should include @sorteio
+  [arg1, arg2, arg3, arg4].should include @dupla
 end
 
 

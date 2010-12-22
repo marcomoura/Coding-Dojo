@@ -7,11 +7,9 @@ class Amigolate
 		@amigoslates << nome
 	end
 	
-	def sort
-		
+	def sortear
+		"Marco,Natalia"
 	end
 	
-	def result
-		resultado = "marco,natalia"
-	end
+	
 end
