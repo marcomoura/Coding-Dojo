@@ -6,9 +6,17 @@ Funcionalidade: Sorteio
   Eu quero organizar um amigolate
 
   Cenario: sortear o primeiro par
-    Dado que tenho "Natalia" e "Marcos" cadastrados
+    Dado que tenho "Natalia" e "Marco" cadastrados
     Quando eu mando sortear
     Entao quero ver a dupla
+    
+  Cenario: sortear o primeiro par
+    Dado que tenho "Natalia" e "Marco" e "Nelma" e "Rafael" cadastrados
+    Quando eu mando sortear
+    Entao quero ver "Marco,Natalia" 
+    E "Rafael,Nelma"  
+      
+    
   
   
   
