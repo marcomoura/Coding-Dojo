@@ -11,5 +11,5 @@ Quando /^eu mando sortear$/ do
 end
 
 Entao /^quero ver a dupla$/ do
-  pending # express the regexp above with the code you wish you had
+  @sorteio.result.should == 'marco,natalia'
 end

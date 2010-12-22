@@ -10,4 +10,8 @@ class Amigolate
 	def sort
 		
 	end
+	
+	def result
+		resultado = "marco,natalia"
+	end
 end
