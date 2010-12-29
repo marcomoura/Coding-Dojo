@@ -1,3 +1,21 @@
+Último Coding Dojo de 2010!
+
+Boas férias para Marco e Rafael
+Kata: ENCOTEL
+O objetivo deste kata era ler um expressão e retornar o número correspondente, baseando-se na tabela.
+
+Letra 	Número
+ABC 	2
+DEF 	3
+GHI 	4
+JKL 	5
+MNO 	6
+PQRS 	7
+TUV 	8
+WXYZ 	9
+Exemplo: A entreda seria MY LOVE o retorno 69 5683.
+Fonte Kata: “http://br.spoj.pl/problems/ENCOTEL/
+Código fonte: https://github.com/marcomoura/Coding-Dojo-Cancao-Nova/tree/master/21_telefone
 
 #BOM
 -OS CURADORES
